@@ -12,12 +12,18 @@ app.get('/mensaje1', (req, res) => {
     res.send('Awui va el mensaje 1. Hola desde Express!');
 });
 
+// Ruta 2
+app.get('/ulsa', (req, res) => {
+    res.send('Formar alumnos con valor');
+});
+
 // Ruta 3
 app.get('/saludar/:msg', (req, res) => {
-    res.send(`Hola: ${req.params.msg}m`);
+    res.send(`Hola: ${req.params.msg} m`);
 });
 
 // Iniciar API
 app.listen(port, () => {
     console.log(`Servidor corriendo en http://localhost:${port}`);
 });
+

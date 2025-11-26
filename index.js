@@ -4,12 +4,12 @@ const port = 3000;
 
 // Ruta 1
 app.get('/', (req, res) => {
-    res.send('Bienvenidos al API');
+    res.send('Equipo: Sebastian Avitia y Justin Contreras');
 });
 
 // Ruta 2
-app.get('/mensaje1', (req, res) => {
-    res.send('Awui va el mensaje 1. Hola desde Express!');
+app.get('/equipo', (req, res) => {
+    res.send('Equipo: Sebastian Avitia y Justin Contreras');
 });
 
 // Ruta 2
@@ -19,7 +19,7 @@ app.get('/ulsa', (req, res) => {
 
 // Ruta 3
 app.get('/saludar/:msg', (req, res) => {
-    res.send(`Hola: ${req.params.msg} m`);
+    res.send(`Hola: ${req.params.msg}`);
 });
 
 // Iniciar API

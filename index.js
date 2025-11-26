@@ -14,7 +14,7 @@ app.get('/mensaje1', (req, res) => {
 
 // Ruta 2
 app.get('/ulsa', (req, res) => {
-    res.send('Formar alumnos con valor');
+    res.send('Somos una institución que forma parte de una red global de inspiración cristiana lasallista; comprometida con la educación profesional y formación integral de las personas quienes, con su acción transformadora, trasciendan al coadyuvar en la construcción de una ciudadanía responsable y solidaria, en el cambio social y el cuidado de la Casa Común');
 });
 
 // Ruta 3
